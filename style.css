@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+header, footer, article {
+    background: #1F2937;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    height: 50px;
+    color: #F9FAF8;
+}
+
+header h2 {
+    font-size: 24px;
+}
+
+header ul li a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+article, section, .words, .sign-container {
+    flex: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    height: 300px;
+}
+
+button, .sign {
+    background-color: #3882F6;
+}
+
+button {
+    padding: 5px 24px;
+    border-radius: 8px;
+    color: #F9FAF8;;
+}
+
+article {
+    flex-direction: row;
+    color: #F9FAF8;
+    gap: 48px;
+    padding: 48px;
+}
+
+article h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+article button {
+    border: none;
+}
+
+.subtext {
+    width: 400px;
+}
+
+.placeholder {
+    align-content: center;
+    text-align: center;
+    background: #888a8f9f;
+    font-size: 12px;
+    height: 200px;
+    width: 400px;
+}
+
+section {
+    flex-direction: column;
+}
+
+section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.frames {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.frame {
+    width: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.frame img {
+    height: 150px;
+    width: 100%;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.words {
+    background: #E5E7EB;
+    color: #1F2937;
+    align-content: center;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.words p:first-child {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.words p:last-child {
+    font-weight: bold;
+    align-self: self-end;
+}
+
+.sign-container {
+    font-size: 12px;
+}
+
+.sign {
+    display: flex;
+    flex: 0;
+    flex-direction: row;
+    color: #F9FAF8;
+    gap: 100px;
+    padding: 30px 70px;
+}
+
+.sign button {
+    border: 2px solid #F9FAF8;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+}
