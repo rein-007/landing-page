@@ -14,10 +14,14 @@ header, footer, article {
 
 header, footer {
     display: flex;
-    justify-content: space-between;
-    gap: 16px;
     height: 50px;
     color: #F9FAF8;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
 }
 
 header h2 {
@@ -49,11 +53,11 @@ article, section, .words, .sign-container {
 
 button, .sign {
     background-color: #3882F6;
+    border-radius: 8px;
 }
 
 button {
     padding: 5px 24px;
-    border-radius: 8px;
     color: #F9FAF8;;
 }
 
@@ -88,6 +92,7 @@ article button {
 
 section {
     flex-direction: column;
+    padding: 50px;
 }
 
 section h2 {
